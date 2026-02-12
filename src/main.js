@@ -106,4 +106,10 @@ const showRomnceSentence = (textArg) => {
 
 typewriterEffect(discriptionText);
 
-console.log("%cW*F r u looking at?", "color: red; font-size: 40px;");
+console.log("%cWell, well... look who's there", "color: red; font-size: 20px;");
+setTimeout(() => {
+  console.log(
+    "%cAre you trying to steal my stars? |･-･) ✧",
+    "color: red; font-size: 30px;",
+  );
+}, 5000);
